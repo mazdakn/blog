@@ -1,7 +1,19 @@
 baseURL = "https://mazdakn.github.io"
 languageCode = "en-us"
-title = "Simple, yet Complex"
+title = "Mazdak Nasab"
 theme = "mainroad"
+
+[Author]
+  name = "Mazdak Nasab"
+  bio = "This is me"
+  avatar = "img/mazdak1.jpg"
+
+[Params]
+  description = "Mazdak Nasab's personal page"
+  copyright = "Mazdak Nasab"
+
+[Params.logo]
+  subtitle = "Simple, yet Complex"
 
 [Params.sidebar]
   home = "right" # Configure layout for home page
@@ -9,5 +21,12 @@ theme = "mainroad"
   single = false # Configure layout for single pages
   # Enable widgets in given order
   widgets = ["search", "recent", "categories", "taglist", "social", "languages"]
-  # alternatively "ddg-search" can be used, to search via DuckDuckGo
-  # widgets = ["ddg-search", "recent", "categories", "taglist", "social", "languages"]
+
+[Params.widgets.social]
+  linkedin = "mazdakn"
+  github = "mazdakn"
+  email = "mazdak.nasab@gmail.com"
+
+[[Params.widgets.social.custom]]
+  title = "Resume"
+  url = "https://drive.google.com/file/d/1HOWM9vcwScF6BEWcyVe9Dp5uQLK8VJUp/view"
