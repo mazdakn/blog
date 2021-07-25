@@ -13,20 +13,28 @@ theme = "mainroad"
   copyright = "Mazdak Nasab"
 
 [Params.logo]
-  subtitle = "Simple, yet Complex"
+  #subtitle = "A software approach to networking"
+  #subtitle = "Science of Networking Systems"
 
 [Params.sidebar]
   home = "right" # Configure layout for home page
   list = "left"  # Configure layout for list pages
   single = false # Configure layout for single pages
   # Enable widgets in given order
-  widgets = ["search", "recent", "categories", "taglist", "social", "languages"]
+  widgets = ["search", "recent", "categories", "taglist", "social"]
+
+[[Params.widgets.social.custom]]
+  title = "Resume"
+  url = "https://drive.google.com/file/d/1HOWM9vcwScF6BEWcyVe9Dp5uQLK8VJUp/view"
 
 [Params.widgets.social]
   linkedin = "mazdakn"
   github = "mazdakn"
   email = "mazdak.nasab@gmail.com"
 
-[[Params.widgets.social.custom]]
-  title = "Resume"
-  url = "https://drive.google.com/file/d/1HOWM9vcwScF6BEWcyVe9Dp5uQLK8VJUp/view"
+[menu]
+[[menu.main]]
+  identifier = "blog"
+  name = "Blog"
+  url = "/"
+  weight = -100

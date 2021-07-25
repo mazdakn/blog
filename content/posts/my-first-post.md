@@ -14,4 +14,4 @@ sidebar: "right"
 draft: false
 ---
 
-something
+This is about a new topic
