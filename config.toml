@@ -13,15 +13,14 @@ theme = "mainroad"
   copyright = "Mazdak Nasab"
 
 [Params.logo]
-  #subtitle = "A software approach to networking"
-  #subtitle = "Science of Networking Systems"
+  subtitle = "A software approach to network systems"
 
 [Params.sidebar]
   home = "right" # Configure layout for home page
   list = "left"  # Configure layout for list pages
   single = false # Configure layout for single pages
   # Enable widgets in given order
-  widgets = ["search", "recent", "categories", "taglist", "social"]
+  widgets = ["search", "recent", "categories", "taglist"]
 
 [Params.widgets.social]
   linkedin = "mazdakn"
@@ -34,3 +33,6 @@ theme = "mainroad"
   name = "Blog"
   url = "/"
   weight = -100
+
+[Params.style.vars]
+  highlightColor = "#1c3da6"
